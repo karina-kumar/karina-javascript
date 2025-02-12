@@ -43,6 +43,31 @@
     let greeting = "My name is " + name;
     console.log(greeting);
 
+    console.log("Using functions:");
+
+    // function to make square numbers
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+    console.log(makeSquare(4));
+    console.log(makeSquare(18));
+
+    // functions on my own
+    function createName(firstName, middleName, lastName) {
+      let fullName = firstName + " " + middleName + " " + lastName;
+      return fullName
+    }
+
+    console.log(createName('Robert', '"Beto"','O\'Rourke'))
+    console.log(createName("Karina", "D", "Kumar"))
+    console.log(createName("Taylor", "Alison", "Swift"))
+
+
+
   </script>
 </body>
 </html>
