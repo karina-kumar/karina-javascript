@@ -1,4 +1,4 @@
-# Karina's git practice
+# Karina's JavaScript practice
 
 By Karina Kumar, Intro Coding for Journalists class
 
